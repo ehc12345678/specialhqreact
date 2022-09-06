@@ -1,0 +1,12 @@
+spring.application.name=specialHq
+spring.datasource.read-write.jdbcUrl=jdbc:mysql://127.0.0.1:3306/specialhq
+spring.datasource.read-write.username=user
+spring.datasource.read-write.password=ssf89*&fs^&^hg
+spring.datasource.read-write.minimumIdle=1
+spring.datasource.read-write.maximumPoolSize=10
+spring.datasource.read.jdbcUrl=jdbc:mysql://127.0.0.1:3306/specialhq
+spring.datasource.read.username=user
+spring.datasource.read.password=ssf89*&fs^&^hg
+spring.datasource.read.minimumIdle=1
+spring.datasource.read.maximumPoolSize=10
+

@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: specialHq
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  datasource:
+    read-write:
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/specialhq
+      username: user
+      password: ssf89*&fs^&^hg
+      minimumIdle: 1
+      maximumPoolSize: 10
+    read:
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/specialhq
+      username: user
+      password: ssf89*&fs^&^hg
+      minimumIdle: 1
+      maximumPoolSize: 10
+  jpa:
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: org.hibernate.dialect.MySQLDialect
+server:
+  port: 9001
+
+hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+
